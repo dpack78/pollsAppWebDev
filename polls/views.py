@@ -4,6 +4,7 @@ from django.core.urlresolvers import reverse
 from django.template import loader
 from django.utils import timezone
 from .models import Question
+from .models import Choice
 from django.views import generic
 
 class IndexView(generic.ListView):
