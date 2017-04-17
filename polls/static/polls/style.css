@@ -89,3 +89,15 @@ body {
     right: 0;
     box-shadow:0 0 40px  #000000;
 }
+
+.thumbsUp{
+    border-radius: 10px;
+    margin-top: 20px;
+    background-image: url("images/hand.jpg");
+    min-width: 240px;
+    min-height: 120px;
+    display: inline-block;
+    background-repeat: none;
+    background-size:240px 120px;
+    /*background-color: red;*/
+}
